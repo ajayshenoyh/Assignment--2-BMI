@@ -28,6 +28,21 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func mSwitch(_ sender: UISwitch) {
+        if metricSwitch.isOn{
+            hTextField.placeholder="in cm"
+            wTextField.placeholder="in Kg"
+            hTextField.text=""
+            wTextField.text=""
+        }
+        else
+        {
+            hTextField.placeholder="in inches"
+            wTextField.placeholder="in lbs"
+            hTextField.text=""
+            wTextField.text=""
+        }
+    }
     @IBAction func calBMI(_ sender: UIButton) {
         if metricSwitch.isOn
         {
