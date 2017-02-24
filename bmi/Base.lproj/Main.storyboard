@@ -46,7 +46,7 @@
                                 <rect key="frame" x="157" y="23" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <color key="onTintColor" white="0.40219631459977889" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="onTintColor" red="0.3808172345161438" green="0.80082452297210693" blue="0.86600035429000854" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="thumbTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <action selector="mSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="wx8-bv-uRy"/>
@@ -131,7 +131,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="heightClass=regular-widthClass=compact">
-                            <color key="backgroundColor" white="0.8842075892857143" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" red="0.75963231590059066" green="0.90698474645614624" blue="0.90698474645614624" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </variation>
                     </view>
                     <connections>
