@@ -144,6 +144,7 @@ class ViewController: UIViewController {
             sks.isHidden=false
             photoLabel.isHidden=false
             tipsLabel.isHidden=false
+            tipsLabel.text="Tips for Normal BMI"
             switch(bmi){
                 
             case 0..<16 : resultLabel.text = String(format: "%.2f",bmi)+" Severe Thinness"
@@ -153,7 +154,7 @@ class ViewController: UIViewController {
             case 17.00..<18.49: resultLabel.text = String(format: "%.2f",bmi)+" Mild Thinness"
                 strNUrl="http://www.wikihow.com/Gain-Weight-Quickly"
             case 18.5..<24.99: resultLabel.text = String(format: "%.2f",bmi)+" Normal Range"
-            tipsLabel.isHidden=true
+            tipsLabel.text="Maintain your normal BMI"
             sks.isHidden=true
             case 25.00..<29.99: resultLabel.text = String(format: "%.2f",bmi)+" Overweight"
             case 30.00..<34.99: resultLabel.text = String(format: "%.2f",bmi)+" Obese Class I(Moderate)"
