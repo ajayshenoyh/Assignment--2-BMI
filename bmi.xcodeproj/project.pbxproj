@@ -21,6 +21,7 @@
 		661AB8211E55067F0065D8D3 /* obeseclass3.png in Resources */ = {isa = PBXBuildFile; fileRef = 661AB81A1E55067F0065D8D3 /* obeseclass3.png */; };
 		661AB8221E55067F0065D8D3 /* severethin.png in Resources */ = {isa = PBXBuildFile; fileRef = 661AB81B1E55067F0065D8D3 /* severethin.png */; };
 		661AB8241E5507A70065D8D3 /* overweight.png in Resources */ = {isa = PBXBuildFile; fileRef = 661AB8231E5507A70065D8D3 /* overweight.png */; };
+		66606B471E5E949800589B7F /* external-link-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 66606B461E5E949800589B7F /* external-link-512.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		661AB81A1E55067F0065D8D3 /* obeseclass3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = obeseclass3.png; path = ../../Desktop/obeseclass3.png; sourceTree = "<group>"; };
 		661AB81B1E55067F0065D8D3 /* severethin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = severethin.png; path = ../../Desktop/severethin.png; sourceTree = "<group>"; };
 		661AB8231E5507A70065D8D3 /* overweight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = overweight.png; path = ../../Desktop/overweight.png; sourceTree = "<group>"; };
+		66606B461E5E949800589B7F /* external-link-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "external-link-512.png"; path = "../../Downloads/external-link-512.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		661AB8141E55063F0065D8D3 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				66606B461E5E949800589B7F /* external-link-512.png */,
 				661AB8231E5507A70065D8D3 /* overweight.png */,
 				661AB8151E55067F0065D8D3 /* mildthin.png */,
 				661AB8161E55067F0065D8D3 /* moderatethin.png */,
@@ -178,7 +181,8 @@
 				TargetAttributes = {
 					6606C8561E523DEE00DDB7A1 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = M5J7Y579C8;
+						ProvisioningStyle = Manual;
 					};
 					6606C86A1E523DF100DDB7A1 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -214,6 +218,7 @@
 				661AB8221E55067F0065D8D3 /* severethin.png in Resources */,
 				661AB8241E5507A70065D8D3 /* overweight.png in Resources */,
 				661AB8201E55067F0065D8D3 /* obeseclass2.png in Resources */,
+				66606B471E5E949800589B7F /* external-link-512.png in Resources */,
 				661AB81E1E55067F0065D8D3 /* normal.png in Resources */,
 				661AB8211E55067F0065D8D3 /* obeseclass3.png in Resources */,
 				661AB81F1E55067F0065D8D3 /* obeseclass1.png in Resources */,
@@ -303,6 +308,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -353,6 +359,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -379,11 +386,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M5J7Y579C8;
 				INFOPLIST_FILE = bmi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.bmi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -391,11 +401,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M5J7Y579C8;
 				INFOPLIST_FILE = bmi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.bmi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
