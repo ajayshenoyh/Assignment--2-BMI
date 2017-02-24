@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var linkLabel: UILabel!
-    var strUrl:String = "http://www.diabetesforum.com/information/diabetes-researchers-call-for-new-bmi-thresholds-for-different-ethnic-groups.html"
+    var strUrl:String = "http://www.alamy.com/stock-photo-fat-to-thin-process-and-thin-to-muscular-concept-icon-symbol-sign-89509938.html"
     var strNUrl:String=""
     override func viewDidLoad() {
         super.viewDidLoad()
