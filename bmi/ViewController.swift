@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
 //MARK: Properties
     
     @IBOutlet weak var hLabel: UILabel!
@@ -24,12 +24,19 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    func keyboardDismiss() {
+        hTextField.resignFirstResponder()
+        wTextField.resignFirstResponder()
+    }
+    
+    
 
     @IBAction func mSwitch(_ sender: UISwitch) {
         if metricSwitch.isOn{
@@ -73,6 +80,7 @@ class ViewController: UIViewController {
    
     @IBOutlet weak var tipsLabel: UILabel!
     @IBAction func calBMI(_ sender: UIButton) {
+        keyboardDismiss()
         if metricSwitch.isOn
         {
             var htemp:Double=0.0
